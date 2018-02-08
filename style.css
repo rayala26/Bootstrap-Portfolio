@@ -1,0 +1,88 @@
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+}
+
+.navbar-brand,
+.navbar-nav li a,
+.navbar {
+    line-height: 100px;
+    height: 100px;
+    padding-top: 0;
+    clear: both;
+	text-align: center;
+}
+
+.navbar-brand {
+    font-size: 28px;
+    color: white;
+}
+
+.navbar-nav li a {
+    font-size: 18px;
+    color: white;
+}
+
+.sidebar {
+  float: right;
+  width: 100%;
+  max-width: 270px;
+  padding: 30px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+.social {
+  width: 62px;
+  height: 62px;
+  margin-top: 8px;
+  margin-right: 5px;
+}
+
+.social:last-child {
+  margin-right: 0;
+}
+
+footer .navbar-brand,
+footer .navbar-nav li a,
+footer .navbar {
+  clear: both;
+  font-size: 12px;
+  color: #fff;
+  color: #ccc;
+  text-align: center;
+  border-top: 8px solid #4aaaa5;
+  background-color: #666666;
+}
+
+/* portfolio page */
+
+.work {
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
+
+.work:nth-child(even) {
+  margin-right: 40px;
+}
+
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+}
+
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
